@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Receipt</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tab"></div>
+        <div class="paid"><p>Receipt Paid successfully</p></div>
+        <div class="receipt">
+        <div class="paper">
+          <div class="title">Receipt</div>
+          <div class="date">Date: 04/15/2023</div>    
+          <table>
+            <tbody>
+              <tr><td>1 x Selecta 3 in 1</td><td class="right">₱126</td></tr>
+               <tr><td>3 x Toblerone</td><td class="right">₱180</td></tr>
+              <tr><td>4 x Yakult</td><td class="right">₱48</td></tr>
+              <tr><td>2 x Marlboro </td><td class="right">₱290</td></tr>
+              <tr><td>1 x Nips</td><td class="right">₱80</td></tr>
+             <tr><td>2 x Gatorade</td><td class="right">₱210</td></tr>
+              <tr><td colspan="2" class="center"><input type="button" value="Pay Now" onClick="pay()"/></td></tr>
+          </tbody>
+          </table>
+          <div class="sign center">
+            <div class="barcode"></div>
+            <br/>
+            0442124123456789
+            <br/>
+            <div class="thankyou">
+            Thank you for your business
+            </div>
+          </div>
+        </div>
+        
+        <div>
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>

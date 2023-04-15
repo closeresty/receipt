@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["pay","$","slideUp","slideDown"],"mappings":";;AAAA,SAASA,GAAT,GACA;AACEC,EAAAA,CAAC,CAAC,UAAD,CAAD,CAAcC,OAAd,CAAsB,MAAtB;AACAD,EAAAA,CAAC,CAAC,OAAD,CAAD,CAAWE,SAAX,CAAqB,MAArB;AACD","sourcesContent":["function pay()\r\n{\r\n  $(\".receipt\").slideUp(\"slow\");\r\n  $(\".paid\").slideDown(\"slow\");\r\n}"],"file":"script.dev.js"}
